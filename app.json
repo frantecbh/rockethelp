@@ -5,6 +5,16 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.frantec.rockethelp"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "plugins": [
+      "@react-native-firebase/app"
     ]
   },
   "name": "rockethelp"
